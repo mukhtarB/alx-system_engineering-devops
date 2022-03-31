@@ -1,1 +1,1 @@
-Bash scripting: basics
+Bash scripting: Shell basics
