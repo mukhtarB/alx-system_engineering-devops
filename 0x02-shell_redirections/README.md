@@ -1,1 +1,1 @@
-Shell scripting: File redirections
+Scripting: Shell I/O redirections and filters
