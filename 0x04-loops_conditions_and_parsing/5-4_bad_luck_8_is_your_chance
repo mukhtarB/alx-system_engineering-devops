@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script loops from 1 to 10 and displays "bad luck", "good luck", "Best School" for the 4th loop, 8th loop and other iterations respectively
+
+COUNTER=1
+while [ $COUNTER -lt 11 ]
+do
+    if [ $COUNTER = 4 ]
+    then
+        echo "bad luck"
+    elif [ $COUNTER = 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((COUNTER+=1)) || true
+done
